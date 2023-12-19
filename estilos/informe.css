@@ -1,0 +1,42 @@
+body {
+    background-color: #8c24c9;
+    color: #11dbca;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+#barChart {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.chart-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn-outline-success {
+    background-color: #14b9cf;
+    color: #fff;
+    border: 1px solid #19d4c5;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+.btn-outline-success:hover {
+    background-color: #14bdbd;
+}
